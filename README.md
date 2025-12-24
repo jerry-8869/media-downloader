@@ -9,7 +9,7 @@ Supports:
 - Pinterest
 
 Built with ❤️ by **Jerry**  
-📢 Join: @jerrybyte
+📢 Join telegram channel : @jerrybyte
 
 ---
 
@@ -40,4 +40,29 @@ Built with ❤️ by **Jerry**
 ## 🔧 Installation
 
 ### 1️⃣ Clone the Repository
+
+LINUX (Ubuntu / Debian / Kali / Arch)
+sudo apt update 
+sudo apt install -y git python3 python3-pip ffmpeg 
+git clone https://github.com/jerry-8869/media-downloader.git 
+cd media-downloader 
+pip3 install -r requirements.txt 
+python3 main.py
+
+WINDOWS (CMD / PowerShell)
+git clone https://github.com/jerry-8869/media-downloader.git 
+cd media-downloader  
+pip install -r requirements.txt 
+python main.py
+
+TERMUX (Android)
+pkg update -y 
+pkg install -y git python ffmpeg 
+git clone https://github.com/jerry-8869/media-downloader.git  
+cd media-downloader 
+pip install -r requirements.txt 
+python main.py
+
+
+
 
